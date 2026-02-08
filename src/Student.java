@@ -25,4 +25,11 @@ public class Student {
     public void setScore(int score){
         this.score = score;
     }
+
+//    override
+
+    public String toString(){
+        return id + " " + name + " " + age + " " + score;
+    }
+
 }
