@@ -20,4 +20,9 @@ public class Student {
     public int getAge() { return age; }
     public int getScore() { return score; }
 
+//    Setter (for updating score)
+
+    public void setScore(int score){
+        this.score = score;
+    }
 }
